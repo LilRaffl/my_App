@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1EA"
-    android:orientation="vertical"
+    android:background="#B91B4CDF"
     tools:context=".MainActivity">
 
 
@@ -13,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="15dp"
-        android:background="#2A11ED5A"
+        android:background="@color/corBasica"
         android:orientation="vertical">
 
         <ImageView
@@ -40,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_baseline_vpn_key"
-            android:hint="insira seu nome"
+            android:hint="@string/insira_seu_nome"
             android:inputType="textEmailAddress"
             android:maxLength="50"
             android:padding="10sp"
@@ -49,7 +48,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="senha"
+            android:text="@string/senha"
             android:textColor="#0A2B87"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -60,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_baseline_lock"
-            android:hint="insira sua senha "
+            android:hint="@string/insira_sua_senha"
             android:inputType="textPassword"
             android:maxLength="50"
             android:padding="10sp"
