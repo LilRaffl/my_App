@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="corFundo">#1EA</color>
     <color name="corBasica">#2A11ED5A</color>
+    <color name="corFacebook">#38529a</color>
 </resources>
